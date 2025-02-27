@@ -1,0 +1,31 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Orbitron", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: black;
+  color: purple;
+  font-weight: 700;
+  
+} 
+
+@layer utilities {
+  @keyframes loading {
+     0% {
+      transform: translateX(-10%)
+     }
+     100%{
+      transform: translateX(25%)
+     }
+  }
+}
+
+.animate-loading-bar{
+  animation: loading 0.8s ease infinite;
+}
