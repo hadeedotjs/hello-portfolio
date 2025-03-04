@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import { Loading } from './components/Loading'
 import "./index.css";
-import { Mobile } from './components/Mobile';
 import { Navbar } from './components/Navbar';
+import { Mobile } from './components/Mobile';
 
 
 function App() {
