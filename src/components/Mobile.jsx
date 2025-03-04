@@ -13,12 +13,12 @@ export const Mobile = ({ menu, setMenu }) => {
                      `}
         >
             <button
-                onClick={(e) => setMenu(false)}
+                onClick={() => setMenu(false)}
                 className="absolute top-6 right-6 text-3xl focus:outline-none cursor-pointer"
                 aria-label="Close Menu"
                 
             >
-               &times;
+               x
             </button>
         </div>
     )
