@@ -11,7 +11,7 @@ export const Navbar = ({ menu, setMenu }) => {
                 <div className="flex justify-between items-center h-16 text-blue-100 ">
                     <div className="flex  items-center">
                         <img className="w-12 h-12" src="src/assets/dazai.png" alt="404"></img>
-                        <a href="#home" > &nbsp; hadeedotjs</a>
+                        <a href="#home" > &nbsp; hadeedotjs/hanzala.sol</a>
                     </div>
 
                     <div className={`w-7 h-5 relative cursor-pointer z-50 md:hidden ${menu ? "opacity-0" : "opacity-100"}`} onClick={() => setMenu((prev)=> !prev) }>&#9776;</div>

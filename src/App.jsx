@@ -3,6 +3,8 @@ import { Loading } from './components/Loading'
 import "./index.css";
 import { Navbar } from './components/Navbar';
 import { Mobile } from './components/Mobile';
+import { Home } from './components/sections/Home';
+import { About } from './components/sections/About';
 
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
       <div className={`min-h-screen transition-opacity duration-700 ${!load ? "opacity-0" : "opacity-100"}`}>
       <Navbar menu={menu} setMenu={setMenu}/>
       <Mobile menu={menu} setMenu={setMenu}/>
+      <Home></Home>
+      <About></About>
       </div>
       
     </div>
