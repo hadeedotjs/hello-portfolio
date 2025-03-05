@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import dazai from "/src/assets/dazai.png"
 
 export const Navbar = ({ menu, setMenu }) => {
 
@@ -10,7 +11,7 @@ export const Navbar = ({ menu, setMenu }) => {
             <div className="max-w-5xl mx-auto px-4">
                 <div className="flex justify-between items-center h-16 text-blue-100 ">
                     <div className="flex  items-center">
-                        <img className="w-12 h-12" src="src/assets/dazai.png" alt="404"></img>
+                        <img className="w-12 h-12" src={dazai} alt="404"></img>
                         <a href="#home" > &nbsp; hadeedotjs/hanzala.sol</a>
                     </div>
 
