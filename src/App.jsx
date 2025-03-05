@@ -5,6 +5,7 @@ import { Navbar } from './components/Navbar';
 import { Mobile } from './components/Mobile';
 import { Home } from './components/sections/Home';
 import { About } from './components/sections/About';
+import { Projects } from './components/sections/Projects';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Mobile menu={menu} setMenu={setMenu}/>
       <Home></Home>
       <About></About>
+      <Projects></Projects>
       </div>
       
     </div>

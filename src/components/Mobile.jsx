@@ -6,12 +6,14 @@ export const Mobile = ({ menu, setMenu }) => {
             className={`fixed top-0 left-0 w-full z-40 flex flex-col items-center justify-center
                        transition-all duration-300 ease-in-out text-blue-100 md:hidden
   
-                       ${menu ? "h-screen opacity-100 pointer-events-auto":"h-0 opacity-0 pointer-events-none"}`}
+                       ${menu ? "h-screen opacity-100 pointer-events-auto":"h-screen opacity-0 pointer-events-none"}`}
         >
             <button
-                onClick={() => setMenu(false)}
+                onClick={() => {setMenu(false)}
+                }
                 className="absolute top-6 right-6 text-blue-100 focus:outline-none cursor-pointer"
                 aria-label="Close Menu"
+
                 
             >
                ^

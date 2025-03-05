@@ -11,7 +11,7 @@ export const About = () => {
     "Nextjs"
   ];
 
-  const backendSkills = ["Node.js", "Expressjs", "MongoDB", "Postgres", "Zod", "JWT"];
+  const backendSkills = ["Node.js", "Expressjs", "MongoDB", "Postgres", "Zod"];
 
   return (
     <section
@@ -20,16 +20,19 @@ export const About = () => {
     >
       {/* <RevealOnScroll> */}
         <div className="max-w-3xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8 text-cyan-100">
+          <h2 className="text-3xl font-bold mb-8 text-white">
             {" "}
             About Me
           </h2>
 
+
           <div className="rounded-xl p-8 border-white/10 border">
+
+          <h1 className="text-2xl text-cyan-100"> Skills</h1>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="p-6 hover:-translate-y-1 transition-all">
-                <h3 className="text-xl font-bold mb-4 text-blue-100"> Frontend</h3>
+                <h3 className="text-xl font-bold mb-4 text-cyan-100"> Frontend</h3>
                 <div className="flex flex-wrap gap-2">
                   {frontendSkills.map((tech, key) => (
                     <span
@@ -44,7 +47,7 @@ export const About = () => {
               </div>
 
               <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                <h3 className="text-xl font-bold mb-4 text-blue-100"> Backend</h3>
+                <h3 className="text-xl font-bold mb-4 text-cyan-100"> Backend</h3>
                 <div className="flex flex-wrap gap-2">
                   {backendSkills.map((tech, key) => (
                     <span
