@@ -26,7 +26,7 @@ export const About = () => {
           </h2>
 
 
-          <div className="rounded-xl p-8 border-white md:border-blue-800 border">
+          <div className="rounded-xl p-8 border-white border-solid md:border-blue-800 border">
 
           <h1 className="text-2xl text-white"> Skills</h1>
 
@@ -64,7 +64,7 @@ export const About = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-            <div className="p-6 rounded-xl border-white md:border-blue-800 border hover:-translate-y-1 transition-all">
+            <div className="p-6 rounded-xl border-white border-solid md:border-blue-800 border hover:-translate-y-1 transition-all">
               <h3 className="text-xl text-white font-bold mb-4"> 🏫 Education </h3>
               <ul className="list-disc list-inside text-white space-y-2">
                 <li>
@@ -73,7 +73,7 @@ export const About = () => {
                 </li>
               </ul>
             </div>
-            <div className="p-6 rounded-xl border-white md:border-blue-800 border hover:-translate-y-1 transition-all">
+            <div className="p-6 rounded-xl border-white border-solid md:border-blue-800 border hover:-translate-y-1 transition-all">
               <h3 className="text-xl font-bold text-white mb-4"> 💼 Work Experience </h3>
               <div className="space-y-4 text-white">
                 <div>

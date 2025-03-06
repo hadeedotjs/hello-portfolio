@@ -8,19 +8,19 @@ export const Projects = () => {
                 Projects
             </h1>
             <div className="grid grid-cols-1 md:grid-cols-2 w-full-screen rounded-5xl border-white/10 border gap-5">
-                <div className="border border-white md:border-blue-800 rounded w-full  h-full ">
+                <div className="border border-white border-solid md:border-blue-800 rounded w-full  h-full ">
                     <img src={project} alt="hi" className="w-max h-50 md:h-80"></img>
                     <p className="text-white"> hijkhuihuhuhhuhuiuihh</p>
                 </div>
-                <div className="border border-white md:border-blue-800 rounded w-full  h-full" >
+                <div className="border border-white border-solid md:border-blue-800 rounded w-full  h-full" >
                     <img src={project} alt="hi" className="w-max h-50 md:h-80"></img>
                     <p className="text-white">hjyfyuyuioijojiojoijoij</p>
                 </div>
-                <div className="border border-white md:border-blue-800 rounded w-full  h-full">
+                <div className="border border-white border-solid md:border-blue-800 rounded w-full  h-full">
                     <img src={project} alt="hi" className="w-max h-50 md:h-80"></img>
                     <p className="text-white">hjyfyuyuioijojiojoijoij</p>
                 </div>
-                <div className="border border-white md:border-blue-800 rounded w-full  h-full ">
+                <div className="border border-white border-solid md:border-blue-800 rounded w-full  h-full ">
                     <img src={project} alt="hi" className="w-max h-50 md:h-80"></img>
                     <p className="text-white">hjyfyuyuioijojiojoijoij</p>
                 </div>
