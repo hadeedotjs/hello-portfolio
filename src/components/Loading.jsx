@@ -24,7 +24,7 @@ export const Loading = ({onComplete}) => {
 
     return (
         <div className="fixed inset-0 z-50 flex flex-col items-center justify-center">
-            <div className="mb-4 text-white text-4xl font-mono font-bold ">
+            <div className="mb-4 text-white text-4xl font-bold ">
                 {text}
             </div>
             {/* <div className="w-[200px] h-[2px] bg-gray-800 rounded relative overflow-hidden"> 
