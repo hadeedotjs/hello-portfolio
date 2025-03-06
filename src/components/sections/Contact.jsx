@@ -1,7 +1,7 @@
 export const Contact = () => {
     return <section id="contact" className="min-h-screen flex flex-col gap-6 justify-center items-center py-10 ">
 
-        <h1 className="text-2xl md:text-5xl text-white py-20">
+        <h1 className="text-2xl md:text-5xl text-green-500 py-20">
             Ping me here :
         </h1>
         <div className="flex flex-col md:flex-row justify-center items-center text-black gap-6">
@@ -16,7 +16,7 @@ export const Contact = () => {
         </a> 
         </div>
 
-        <a className="border bg-black text-white p-5 ">
+        <a className="border border-blue-800 bg-black text-white p-5 ">
            email: hadirasoolx@gmail.com
         </a>
 
