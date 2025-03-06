@@ -19,7 +19,7 @@ function App() {
       {!load && <Loading onComplete={()=> {setLoad(true)}}></Loading>}
       <div className={`min-h-screen transition-opacity duration-700 ${!load ? "opacity-0" : "opacity-100"}`}>
       <Navbar menu={menu} setMenu={setMenu}/>
-      <Mobile menu={menu} setMenu={setMenu}/>
+      {/* <Mobile menu={menu} setMenu={setMenu}/> */}
       <Home></Home>
       <About></About>
       <Projects></Projects>

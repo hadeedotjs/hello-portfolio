@@ -15,7 +15,7 @@ export const Navbar = ({ menu, setMenu }) => {
                         <a href="#home" > &nbsp; hadeedotjs/hanzala.sol</a>
                     </div>
 
-                    <div className={`w-7 h-5 relative cursor-pointer z-50 md:hidden ${menu ? "opacity-0" : "opacity-100"}`} onClick={() => setMenu((prev)=> !prev) }>&#9776;</div>
+                    {/* <div className={`w-7 h-5 relative cursor-pointer z-50 md:hidden ${menu ? "opacity-0" : "opacity-100"}`} onClick={() => setMenu((prev)=> !prev) }>&#9776;</div> */}
 
                     <div className="hidden md:flex items-center space-x-8">
                         <a

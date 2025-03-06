@@ -65,8 +65,8 @@ export const About = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-              <h3 className="text-xl text-cyan-100 font-bold mb-4"> 🏫 Education </h3>
-              <ul className="list-disc list-inside text-blue-100 space-y-2">
+              <h3 className="text-xl text-white font-bold mb-4"> 🏫 Education </h3>
+              <ul className="list-disc list-inside text-white space-y-2">
                 <li>
                   <strong> Bachelors of technology, Computer science & Engineering </strong> - IUST, Awantipora, Kashmir
                   (2023-2027)
@@ -77,7 +77,7 @@ export const About = () => {
               <h3 className="text-xl font-bold text-white mb-4"> 💼 Work Experience </h3>
               <div className="space-y-4 text-white">
                 <div>
-                  <h4 className="font-semibold text-blue-100">
+                  <h4 className="font-semibold text-white">
                     {" "}
                     Web2 developer intern at CyberSpark (March 2025 - Present){" "}
                   </h4>
