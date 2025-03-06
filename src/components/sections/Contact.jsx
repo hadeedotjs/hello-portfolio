@@ -5,7 +5,7 @@ export const Contact = () => {
             Ping me here :
         </h1>
         <div className="flex flex-col md:flex-row justify-center items-center text-black gap-6">
-        <a href="https://x.com/hanzaladotjs" className="border border rounded bg-white px-10 py-5" > 
+        <a href="#" className="border border rounded bg-white px-10 py-5" > 
             twitter
         </a>
         <a href="https://github.com/hadeedotjs" className="border border rounded bg-white px-10 py-5">
