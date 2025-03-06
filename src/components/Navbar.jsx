@@ -9,7 +9,7 @@ export const Navbar = ({ menu, setMenu }) => {
     return (
         <nav className="fixed top-0 w-full z-40 border-b border-slate-400/10">
             <div className="max-w-5xl mx-auto px-4">
-                <div className="flex justify-between items-center h-16 text-green-500 ">
+                <div className="flex justify-between items-center h-16 text-blue-500 ">
                     <div className="flex  items-center">
                         <img className="w-12 h-12" src={dazai} alt="404"></img>
                         <a href="#home" > &nbsp; hadeedotjs/hanzala.sol</a>
