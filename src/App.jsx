@@ -15,7 +15,7 @@ function App() {
 
 
   return (
-    <div>
+    <div className='font sans'>
       {!load && <Loading onComplete={()=> {setLoad(true)}}></Loading>}
       <div className={`min-h-screen transition-opacity duration-700 ${!load ? "opacity-0" : "opacity-100"}`}>
       <Navbar menu={menu} setMenu={setMenu}/>
